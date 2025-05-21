@@ -10,4 +10,3 @@ streamlit_vertical_slider
 streamlit_toggle
 tensorflow
 keras
-custom_transformers
