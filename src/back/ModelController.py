@@ -75,16 +75,12 @@ class ModelController:
             raise("Ocurrió un error al leer la información de entrada")
 
     def predict_model_SVC(self, data):
-        print("hol",self)
-        print(data,"__________________________________________________Y____________________")
         target_feature = 'class'
         X_test, Y_test = data.drop([target_feature], axis=1), data[target_feature]
         result = self.svc_model.predict(X_test)
         return result
         
     def predict_model_RF(self, data):
-        print("hol",self)
-        print(data,"__________________________________________________Y____________________")
         target_feature = 'class'
         X_test, Y_test = data.drop([target_feature], axis=1), data[target_feature]
         result = self.Random_model.predict(X_test)

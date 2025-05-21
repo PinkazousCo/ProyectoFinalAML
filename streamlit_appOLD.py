@@ -13,6 +13,9 @@ import sys
 import numpy as np
 #from io import StringIO
 
+print("TensorFlow: ",tensorflow.version)
+print("keras: ",keras.version)
+
 from src.back.ModelController import ModelController
 
 ### Setup and configuration
@@ -174,14 +177,9 @@ with st.form(key="my_form"):
                     if isinstance(input_df, pd.DataFrame) and not input_df.empty:
                         st.subheader("🥩 My Input Data")
                         st.dataframe(input_df)
-                        print("REstulagsdfodsif///////////////////",input_df)
                         resultado_svc=ctrl.predict_model_SVC(input_df)
                         resultado_rf=ctrl.predict_model_RF(input_df)
                         resultado_nn=ctrl.predict_model_RN(input_df)
-                        
-                        print("Resultado SVC///////////////////",resultado_svc)
-                        print("Resultado RF///////////////////",resultado_rf)
-                        print("Resultado NN///////////////////",resultado_nn)
                     else:
                         is_valid = False
 
