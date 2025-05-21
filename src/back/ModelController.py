@@ -40,8 +40,8 @@ class ModelController:
     def __init__(self):
         print("ModelController.__init__ ->")
         # Asegura en una variable la ruta de los modelos
-        self.model_path = osp.join("resources/models")
-        # self.model_path = osp.join(Definitions.ROOT_DIR, "resources/models")
+        # self.model_path = osp.join("resources/models")
+        self.model_path = osp.join(Definitions.ROOT_DIR, "resources/models")
         # Almacena la ruta de cada modelo en una variable
         #self.rf_model_path = osp.join(self.model_path, "rf_model.joblib")
         self.svc_model_path = osp.join(self.model_path, "mejor_modelo_SVC.joblib")
