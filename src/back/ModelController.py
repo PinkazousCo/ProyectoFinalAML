@@ -44,7 +44,7 @@ class ModelController:
         self.model_path = osp.join(Definitions.ROOT_DIR, "resources/models")
         # Almacena la ruta de cada modelo en una variable
         #self.rf_model_path = osp.join(self.model_path, "rf_model.joblib")
-        self.svc_model_path = osp.join(self.model_path, "mejor_modelo_SVC.joblib")
+        self.svc_model_path = osp.join(self.model_path, "Mejor_modelo_SVC.joblib")
         self.Random_model_path = osp.join(self.model_path, "Mejor_modelo_RF.joblib")
         self.RN_model_path = osp.join(self.model_path, "Mejor_modelo_RN.joblib")
 
