@@ -1,4 +1,3 @@
-Python==3.9
 joblib
 matplotlib
 numpy
