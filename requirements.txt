@@ -8,5 +8,5 @@ seaborn
 streamlit
 streamlit_vertical_slider
 streamlit_toggle
-tensorflow
+tensorflow==3.12.3
 keras
