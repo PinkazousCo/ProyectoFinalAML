@@ -1,0 +1,13 @@
+joblib
+matplotlib
+numpy
+pandas
+plotly
+scikit-learn
+seaborn
+streamlit
+streamlit_vertical_slider
+streamlit_toggle
+tensorflow
+keras
+custom_transformers
